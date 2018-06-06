@@ -15,6 +15,7 @@ public class Cat extends Pet{
         this.weight = weight;
     }
 
+
    // public Cat(String ownerName, String petName, int age, char gender, String homeAddress) {
      //   super(ownerName, petName, age, gender, homeAddress);
 
@@ -69,11 +70,34 @@ public class Cat extends Pet{
         this.weight = weight;
     }
 
-    public String getFurColor() {
+    public void String getFurColor() {
         return furColor;
     }
 
     public void setFurColor(String furColor) {
         this.furColor = furColor;
-    }
-}
+
+        protected void String makeSound () {
+
+        return "pets have no sound";
+        @Override
+        protected String makeSound
+            return "MEOOOOOOOW";
+        protected String catYears () {
+            int catYears;
+            case 0:
+        catYears = 0;
+                break;
+        case 1:
+                catYears = 19;
+         case 2:
+            break;
+             catYears = 24
+        default:
+            cat years = ((super.getAge() - 2) * 4 + 24)
+
+
+
+        }class;
+
+}class;
