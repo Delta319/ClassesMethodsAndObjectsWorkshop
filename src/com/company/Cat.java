@@ -9,7 +9,7 @@ public class Cat extends Pet{
     double weight;
     String furColor;
 
-    public Cat(String ownerName, String petName, int age, char gender, String homeAddress, boolean fur, double weight) {
+    public Cat(String ownerName, String petName, String age, char gender, String homeAddress, boolean fur, double weight) {
         super(ownerName, petName, age, gender, homeAddress);
         this.fur = fur;
         this.weight = weight;
